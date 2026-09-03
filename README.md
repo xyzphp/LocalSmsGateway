@@ -31,7 +31,7 @@
 ### Web 控制台
 
 <p align="center">
-  <img src="docs/assets/actual-web-overview.png" alt="Web 控制台概览实际效果" width="960">
+  <img src="docs/assets/ui-web-overview.png" alt="Web 控制台概览界面" width="960">
 </p>
 
 ## 界面素材
