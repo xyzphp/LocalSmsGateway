@@ -2,6 +2,8 @@
 
 本地短信网关是一款运行在 Android 手机上的短信网关应用。它使用手机的 SIM 卡发送和接收短信，并在手机上提供局域网 HTTP 服务，方便电脑、脚本、自动化工具和 MCP Agent 调用。
 
+![本地短信网关项目总览](docs/assets/local-sms-gateway-overview.png)
+
 ## 项目特点
 
 - 单手机、局域网优先，默认服务端口为 8080。
@@ -13,6 +15,8 @@
 - 提供 MCP Streamable HTTP 服务，地址为 /mcp。
 - Android 前台服务支持后台运行和锁屏后维持服务。
 - 支持清理发送记录、收信记录和 Webhook 记录。
+
+![短信网关数据流与集成方式](docs/assets/local-sms-gateway-flow.png)
 
 ## 使用方式
 
@@ -83,7 +87,7 @@ MCP 客户端连接地址：
 http://<手机IP>:8080/mcp
 ~~~
 
-完整接口、Webhook、MCP 工具和排错说明请查看 [项目参考文档](PROJECT_REFERENCE.md)，Web 控制台也提供可直接请求的 API 文档页面。
+完整接口、Webhook、MCP 工具和排错说明请查看 [项目参考文档](docs/PROJECT_REFERENCE.md)，Web 控制台也提供可直接请求的 API 文档页面。
 
 ## 自动构建
 
