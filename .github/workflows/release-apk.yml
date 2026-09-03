@@ -41,7 +41,7 @@ jobs:
           echo "VERSION_NAME=$version_name" >> "$GITHUB_ENV"
 
       - name: Build debug APK
-        run: ./gradlew --no-daemon assembleDebug
+        run: bash ./gradlew --no-daemon assembleDebug
 
       - name: Prepare APK artifact
         shell: bash
