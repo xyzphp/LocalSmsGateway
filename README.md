@@ -18,6 +18,22 @@
 
 ![短信网关数据流与集成方式](docs/assets/local-sms-gateway-flow.png)
 
+## 实际运行效果
+
+以下截图来自当前构建版本，手机端通过 ADB 安装到测试设备，Web 控制台通过手机实际运行的局域网地址访问。
+
+### Android 手机端
+
+<p align="center">
+  <img src="docs/assets/actual-mobile-home.png" alt="Android 手机端首页实际效果" width="360">
+</p>
+
+### Web 控制台
+
+<p align="center">
+  <img src="docs/assets/actual-web-overview.png" alt="Web 控制台概览实际效果" width="960">
+</p>
+
 ## 使用方式
 
 1. 在 Android 手机上安装 APK 并打开应用。

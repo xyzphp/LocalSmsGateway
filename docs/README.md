@@ -10,5 +10,7 @@
 
 - [项目总览图](assets/local-sms-gateway-overview.png)
 - [数据流与集成图](assets/local-sms-gateway-flow.png)
+- [Android 手机端实际效果](assets/actual-mobile-home.png)
+- [Web 控制台实际效果](assets/actual-web-overview.png)
 
-图片用于项目介绍和文档展示，不参与 Android APK 构建。
+其中两张“实际效果”截图来自当前测试设备和手机实际运行的 Web 服务；图片用于项目介绍和文档展示，不参与 Android APK 构建。
