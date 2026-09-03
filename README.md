@@ -2,7 +2,9 @@
 
 本地短信网关是一款运行在 Android 手机上的短信网关应用。它使用手机的 SIM 卡发送和接收短信，并在手机上提供局域网 HTTP 服务，方便电脑、脚本、自动化工具和 MCP Agent 调用。
 
-![本地短信网关项目总览](docs/assets/local-sms-gateway-overview.png)
+<p align="center">
+  <img src="docs/assets/local-sms-gateway-overview.png" alt="本地短信网关项目总览" width="960">
+</p>
 
 ## 项目特点
 
@@ -16,11 +18,11 @@
 - Android 前台服务支持后台运行和锁屏后维持服务。
 - 支持清理发送记录、收信记录和 Webhook 记录。
 
-![短信网关数据流与集成方式](docs/assets/local-sms-gateway-flow.png)
-
 ## 系统工作流程
 
-![本地短信网关系统工作流程图](docs/assets/local-sms-gateway-workflow.png)
+<p align="center">
+  <img src="docs/assets/local-sms-gateway-workflow.png" alt="本地短信网关系统工作流程图" width="960">
+</p>
 
 ## 实际运行效果
 
