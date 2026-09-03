@@ -8,7 +8,7 @@ const NAV_ITEMS = [
     { id: "settings", label: "设置", icon: "settings" }
 ];
 
-const APP_VERSION = "0.1.72";
+const APP_VERSION = "1.0.0";
 
 function uiIcon(name, className = "") {
     const icons = {

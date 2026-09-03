@@ -271,14 +271,14 @@ Web 控制台的“MCP Server”页面会根据当前访问地址动态生成配
 git add .
 git commit -m "chore: prepare release"
 git push origin main
-git tag v0.1.72
-git push origin v0.1.72
+git tag v1.0.0
+git push origin v1.0.0
 ~~~
 
 构建完成后，APK 文件名类似：
 
 ~~~text
-sms-gateway-0.1.72.apk
+sms-gateway-1.0.0.apk
 ~~~
 
 当前流水线产出的是可直接安装的 Debug 签名 APK，适合个人部署。若仓库未来用于公开发布，建议在 GitHub Actions Secrets 中配置 KEYSTORE_BASE64、KEYSTORE_PASSWORD、KEY_ALIAS 和 KEY_PASSWORD，再把流水线切换为正式签名的 assembleRelease。

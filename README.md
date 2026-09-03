@@ -128,9 +128,11 @@ GitHub Actions 配置位于 [.github/workflows/release-apk.yml](.github/workflow
 例如：
 
 ~~~bash
-git tag v0.1.72
-git push origin v0.1.72
+git tag v1.0.0
+git push origin v1.0.0
 ~~~
+
+当前正式版本为 \`1.0.0\`，Android \`versionCode\` 为 \`100\`。
 
 当前流水线生成的是可安装的 Debug 签名 APK，适合个人部署和测试。正式公开发布时应配置独立的 Release 签名证书。
 
