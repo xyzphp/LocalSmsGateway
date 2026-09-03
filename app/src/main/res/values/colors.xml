@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="navy_900">#1C1C1E</color>
+    <color name="blue_600">#1677FF</color>
+    <color name="blue_100">#EDF4FF</color>
+    <color name="green_600">#27A844</color>
+    <color name="green_100">#F0FAF2</color>
+    <color name="orange_600">#C77900</color>
+    <color name="orange_100">#FFF6E6</color>
+    <color name="red_600">#E34D4D</color>
+    <color name="red_100">#FFF0F0</color>
+    <color name="gray_50">#F5F5F5</color>
+    <color name="gray_100">#EBEBEB</color>
+    <color name="gray_300">#D5D5D5</color>
+    <color name="gray_500">#8A8F98</color>
+    <color name="gray_700">#42464D</color>
+    <color name="white">#FFFFFF</color>
+</resources>

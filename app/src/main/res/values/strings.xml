@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">本地短信网关</string>
+    <string name="service_channel_name">短信网关服务</string>
+    <string name="service_channel_description">保持局域网短信网关运行</string>
+</resources>
+
