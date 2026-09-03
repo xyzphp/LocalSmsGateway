@@ -16,3 +16,4 @@ dist/
 *.log
 *.apk
 ui-*.png
+!docs/assets/ui-web-*.png

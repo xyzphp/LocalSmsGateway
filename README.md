@@ -25,7 +25,7 @@
 ### Android 手机端
 
 <p align="center">
-  <img src="docs/assets/actual-mobile-home.png" alt="Android 手机端首页实际效果" width="360">
+  <img src="docs/assets/actual-mobile-home.gif" alt="Android 手机端首页实际效果动画" width="360">
 </p>
 
 ### Web 控制台
@@ -33,6 +33,25 @@
 <p align="center">
   <img src="docs/assets/actual-web-overview.png" alt="Web 控制台概览实际效果" width="960">
 </p>
+
+## 界面素材
+
+仓库同时保留主要 Web 页面素材，便于查阅界面设计和功能入口：
+
+<details>
+<summary>查看 Web 控制台界面素材</summary>
+
+<p align="center">
+  <img src="docs/assets/ui-web-overview.png" alt="Web 控制台概览" width="48%">
+  <img src="docs/assets/ui-web-send-dialog.png" alt="Web 发送短信弹窗" width="48%">
+  <img src="docs/assets/ui-web-sent-detail-drawer.png" alt="Web 发送详情抽屉" width="48%">
+  <img src="docs/assets/ui-web-mcp-server.png" alt="Web MCP Server 页面" width="48%">
+  <img src="docs/assets/ui-web-webhook.png" alt="Web Webhook 页面" width="48%">
+  <img src="docs/assets/ui-web-api-docs.png" alt="Web API 文档页面" width="48%">
+  <img src="docs/assets/ui-web-settings.png" alt="Web 设置页面" width="48%">
+</p>
+
+</details>
 
 ## 使用方式
 
