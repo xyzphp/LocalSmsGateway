@@ -20,42 +20,7 @@
 
 ## 系统工作流程
 
-\`\`\`mermaid
-flowchart LR
-    subgraph LAN["局域网 / EasyTier"]
-        WEB["Web 控制台"]
-        API["HTTP API<br/>Bearer Token"]
-        MCP["MCP Server<br/>/mcp"]
-        HOOK["Webhook 接收方"]
-    end
-
-    subgraph PHONE["Android 手机"]
-        SERVICE["本地短信网关服务<br/>0.0.0.0:8080"]
-        RECORDS["本地记录<br/>发送 / 收信 / Webhook"]
-        DISPATCH["Webhook 调度器"]
-    end
-
-    SIM["SIM 卡 / 运营商"]
-
-    WEB --> SERVICE
-    API --> SERVICE
-    MCP --> SERVICE
-
-    SERVICE -->|"发送短信"| SIM
-    SIM -->|"接收短信广播"| SERVICE
-    SIM -->|"送达 / 失败状态"| SERVICE
-
-    SERVICE --> RECORDS
-    SERVICE --> DISPATCH
-    DISPATCH -->|"收信、发送、送达、失败通知"| HOOK
-
-    classDef client fill:#eaf2ff,stroke:#2f75e8,color:#123b73;
-    classDef phone fill:#eefaf4,stroke:#21a366,color:#135d3b;
-    classDef carrier fill:#fff6e5,stroke:#e09a16,color:#805400;
-    class WEB,API,MCP,HOOK client;
-    class SERVICE,RECORDS,DISPATCH phone;
-    class SIM carrier;
-\`\`\`
+![本地短信网关系统工作流程图](docs/assets/local-sms-gateway-workflow.png)
 
 ## 实际运行效果
 

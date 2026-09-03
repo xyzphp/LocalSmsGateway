@@ -10,6 +10,7 @@
 
 - [项目总览图](assets/local-sms-gateway-overview.png)
 - [数据流与集成图](assets/local-sms-gateway-flow.png)
+- [系统工作流程图](assets/local-sms-gateway-workflow.png)
 - [Android 手机端实际效果动画](assets/actual-mobile-home.gif)
 - [Web 控制台实际效果](assets/actual-web-overview.png)
 - [Web 控制台概览素材](assets/ui-web-overview.png)
