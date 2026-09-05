@@ -31,8 +31,10 @@
 ### Android 手机端
 
 <p align="center">
-  <img src="docs/assets/actual-mobile-home.gif" alt="Android 手机端首页实际效果动画" width="360">
+  <img src="docs/assets/actual-mobile-screens-strip.png" alt="Android 手机端首页、日志和设置界面横排效果" width="960">
 </p>
+
+手机端横排展示首页、日志和设置三个核心界面；同时保留 [动态操作演示](docs/assets/actual-mobile-home.gif)。
 
 ### Web 控制台
 
